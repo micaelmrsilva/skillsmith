@@ -114,3 +114,35 @@ Entre **Sobrevivência e Tração**. Founders técnicos que dominam construir
 produto, código e infra, mas travam em: converter trial, reter usuário,
 precificar, desenhar jornada que entrega valor antes de pedir esforço. São
 **problemas de design comportamental** — que código sozinho não resolve.
+
+---
+
+## A alavanca do design muda com o estágio do produto
+
+**O retorno do design não é constante: é quase zero no MVP e cresce até virar
+decisivo na escala.** Polir a UI de um produto que ninguém quer é o erro mais
+bonito que existe. Morre bonito. Por isso, quando um produto está morrendo, o
+design é o ÚLTIMO lugar pra procurar o culpado.
+
+O mecanismo é casar a disciplina com o estágio, porque a mesma disciplina alavanca
+coisas diferentes em cada momento:
+
+- **MVP:** encurtar o caminho até o valor e dizer não pra features "óbvias". Aqui
+  design quase não move o caixa.
+- **Sobrevivência:** consertar onboarding e ativação. A primeira semana do usuário
+  vale mais que o roadmap inteiro, e arrumar isso compra runway.
+- **Tração:** conversão: LP afiada mais onboarding ajustado conforme os canais vão
+  saturando e o público esfria.
+- **PMF:** profundidade: desenhar o segundo "aha", o caminho de upgrade e a
+  expansão de uso.
+- **Escala:** design vira sistema: um design system pra 3-4 times entregarem
+  consistente sem você no meio de cada decisão.
+
+Em uma linha, o movimento é: Encurtar, Ativar, Converter, Expandir,
+Sistematizar. Aplicar conselho de uma fase na fase errada é o erro mais comum, e
+custa caro.
+
+Pergunta-guia: *em que estágio seu produto está de verdade, e o esforço de design
+de hoje corresponde à alavanca daquele estágio ou à de outro?*
+
+Fonte: @richardrx.

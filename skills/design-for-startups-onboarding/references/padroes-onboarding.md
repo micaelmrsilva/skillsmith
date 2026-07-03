@@ -128,3 +128,33 @@ Pergunta de fechamento: **qual percentual dos seus usuários executa o happy pat
 que você desenhou?** Se você não sabe, é candidato a uma sessão de pesquisa
 amanhã. Jornada de usuário é o que aparece no replay; o que está no Figma é
 hipótese.
+
+---
+
+## Vídeo de onboarding dá boas-vindas, não ensina
+
+**Um bom vídeo de onboarding não é manual. Ele dá boas-vindas, cria conexão,
+mostra o produto num relance e aponta onde o valor vem mais rápido.** Ninguém lê o
+manual do carro nem o do iPhone, e ninguém vai assistir seu vídeo esperando aula.
+Seu produto também não precisa de manual, você já leu o do seu carro?
+
+O mecanismo: o vídeo que tenta *educar* compete com a pressa do usuário e perde. O
+que retém é o vídeo que reduz a sensação de estar perdido e cria vínculo no
+primeiro contato, deixando o aprendizado de verdade pra dentro do próprio fluxo
+(ativo, empty state, triggered onboarding). Educação é trabalho do produto; o
+vídeo é o aperto de mão.
+
+Como aplicar: mire em cortar TTV, tickets de suporte e a sensação de perdido, não
+em ensinar feature por feature. A duração segue a urgência do seu ICP (alguém com
+pressa pra resolver uma dor quer 40 segundos; alguém feliz montando o Lego dele
+aguenta mais). Não precisa de ator nem set chique: dá pra gravar no Screen Studio e
+superar o vídeo de muito produto grande (foi o que o Richard fez com o dele).
+
+Visualmente, pense num modal de boas-vindas "Sua conta foi criada!" com o
+thumbnail do vídeo intro embutido no próprio modal e um único CTA "Próximo", sem
+distração e sem menu de opções.
+
+Pergunta-guia: *seu vídeo está dando boas-vindas ao usuário ou tentando ensinar o
+que o produto deveria ensinar sozinho?*
+
+Fonte: @richardrx.

@@ -111,3 +111,60 @@ digitar o problema) é um anti-padrão clássico de abandono: o usuário frustra
 seleciona uma opção, duas, não fala com ninguém e vai embora — às vezes pra nunca
 mais voltar, demorando 2 meses pra efetivar o cancelamento que já decidiu no
 primeiro dia.
+
+## Churn e payback são um problema só, medido em dois lugares
+
+**Churn e payback parecem dois problemas (às vezes até com donos diferentes), mas
+são o mesmo problema, decidido na primeira sessão do usuário.** A decisão mora no
+vão entre o usuário entrar e sentir que o produto funciona. Um cliente que morre
+antes de pagar o próprio CAC é uma conta que você pagou e nunca recebeu.
+
+O mecanismo: consertar churn na tela de cancelamento e caçar CAC mais barato no
+gerenciador de anúncios são, os dois, o lugar errado. A decisão já tinha sido
+tomada antes, na primeira sessão. Por isso ativação conserta os dois de uma vez:
+encurte o TTV e você retém mais E leva cada cliente pra além da linha de payback
+antes de ele sumir. Um cliente que morre no mês 2 com payback de 4 meses nunca
+fecha a conta, ele evapora enquanto ainda estava te devendo o custo de aquisição.
+
+Como aplicar: pare de tratar o problema em dois times separados olhando duas telas
+separadas, e ataque a primeira sessão. Ressalva honesta: nem todo churn é
+ativação (preço errado e canal ruim existem de verdade). Mas antes de sair caçando
+CAC mais barato, conte quantos clientes morrem antes de pagar o que custaram, esse
+número costuma reordenar as prioridades.
+
+Pergunta-guia: *dos clientes que cancelaram, quantos saíram antes de cruzar a
+linha de payback?*
+
+Fonte: @richardrx.
+
+## Custo de troca é o que vira meses de LTV em anos
+
+**O mesmo produto, desenhado diferente, rende meses vs anos de LTV, e a diferença
+é o custo de troca.** Custo de troca é o esforço que o usuário PERCEBE em sair;
+custo baixo significa histórico raso e saída fácil. Ele não aparece sozinho, você
+engenheira de propósito, como um "juro composto" que aumenta o valor do produto ao
+longo do tempo.
+
+O mecanismo: custo de troca alto trava a saída pelos mesmos gatilhos que seguram um
+investidor numa ação caindo (custo afundado, aversão à perda do que já acumulou).
+São cinco alavancas pra construir:
+
+- **Memória muscular:** atalhos aprendidos que doem pra reaprender (Superhuman,
+  Photoshop).
+- **Modelo mental:** a cabeça do usuário se molda ao seu jeito de organizar (a
+  fricção de trocar Mac por Windows, os labels do Gmail).
+- **Personalização acumulada:** o que o usuário construiu e não quer refazer
+  (playlists do Spotify, o layout da home montado do jeito dele).
+- **Efeito cofre:** dados guardados que ele não quer perder (iCloud, Drive, anos
+  de conversa no WhatsApp).
+- **Piloto automático / hábito:** o uso vira reflexo via loops de recompensa
+  variável, e reflexo não se troca por decisão.
+
+Como aplicar: o custo afundado segura na hora, mas o hábito é o ativo mais fundo, e
+pode levar meses pra instalar. É exatamente essa instalação lenta do hábito que é a
+diferença entre um LTV de meses e um LTV de anos.
+
+Pergunta-guia: *se seu usuário quisesse sair amanhã, o que ele perderia, e você
+projetou isso de propósito ou deixou o acaso decidir?*
+
+Fonte: @richardrx.

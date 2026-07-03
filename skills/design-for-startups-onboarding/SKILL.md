@@ -16,7 +16,7 @@ description: >-
   pedido para mapear/consertar a jornada do signup até o valor. Responda em pt-BR
   por padrão. Para onboarding/activation CRO em inglês, a mesma lente se aplica.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   language: pt-BR
 ---
 

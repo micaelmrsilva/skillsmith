@@ -197,3 +197,35 @@ alavanca afetada é o **NRR** (acima de 110% em B2B separa crescimento sustentá
 de funil furado). Pergunta-guia: *Quando lançamos a última feature/versão
 relevante, quantos clientes ativos foram avisados?* (E não vale email de release
 que ninguém lê, nem post no Instagram.)
+
+---
+
+## Custo de troca é o que vira meses de LTV em anos
+
+**O mesmo produto, desenhado de dois jeitos, rende meses ou anos de LTV.** A
+diferença é o custo de troca: o esforço que o usuário PERCEBE em sair. Custo baixo
+significa histórico raso e porta de saída fácil, então ele vaza no dia em que
+aparece algo 10% melhor. A jogada é engenheirar custo de troca de propósito, um
+"juro composto" que faz o valor do produto crescer com o tempo de uso.
+
+Cinco alavancas pra construir isso:
+- **Memória muscular:** atalhos que viram reflexo (Superhuman, Photoshop). Trocar
+  significa desaprender os dedos.
+- **Modelo mental:** o jeito de pensar o produto (a fricção de Mac vs Windows, os
+  labels do Gmail em vez de pastas). Sair pede reconstruir o mapa da cabeça.
+- **Personalização acumulada:** o que o usuário montou ao longo do tempo
+  (playlists do Spotify, o layout da home). Isso não migra junto.
+- **Efeito cofre:** os dados guardados que você não quer abandonar (iCloud,
+  Drive, anos de conversa no WhatsApp). Sair é deixar um baú pra trás.
+- **Piloto automático / hábito:** o uso vira loop de recompensa variável, a caixa
+  de Skinner. Ele nem decide mais usar, só usa.
+
+O custo afundado segura o usuário do mesmo jeito que segura o investidor numa ação
+caindo: ele já colocou tanto ali que sair parece perder, não parar de perder. O
+hábito pode levar meses pra se instalar, mas é exatamente ele que separa um LTV de
+meses de um LTV de anos.
+
+Pergunta-guia: *Se um concorrente idêntico surgisse amanhã de graça, o que seu
+usuário perderia ao trocar, e você desenhou isso de propósito ou foi por acaso?*
+
+Fonte: @richardrx.

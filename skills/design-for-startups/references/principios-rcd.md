@@ -145,3 +145,34 @@ mais — é aí que a oferta entra naturalmente.
 Pricing define quem entra, quanto fica, e se expande. Preço errado atrai ICP
 errado. Não pense só "qual modelo converte mais", mas "qual modelo atrai e retém
 o ICP certo". Ver `precos-monetizacao.md`.
+
+---
+
+## A alavanca do design não é constante, muda com o estágio do produto
+
+**O retorno do design é quase zero no MVP e cresce até virar decisivo na escala.**
+Ele não é uma constante que você aplica igual o tempo todo. E o corolário
+incômodo: quando um produto está morrendo, design é o ÚLTIMO lugar pra procurar o
+culpado. Polir a UI de um produto que ninguém quer é o erro mais bonito que existe:
+morre bonito. Saber em que estágio você está é o que diz se design move o caixa ou
+é só vaidade.
+
+Casando a disciplina de design com o estágio:
+- **MVP:** encurtar o caminho até o valor e dizer não pra features "óbvias" que
+  vão inchar o produto antes de ele provar que serve pra alguma coisa.
+- **Sobrevivência:** consertar onboarding e ativação. A primeira semana do usuário
+  vale mais que o roadmap inteiro, e arrumar isso compra runway.
+- **Tração:** conversão. LP afiada mais onboarding ajustado conforme os canais vão
+  saturando e o tráfego vai esfriando.
+- **PMF:** profundidade. Desenhar o segundo "aha", o caminho de upgrade e a
+  expansão, pra retenção estabilizar num patamar mais alto.
+- **Escala:** design vira sistema. Um design system pra 3-4 times entregarem com
+  consistência sem depender de você em cada tela.
+
+O fio condutor, do começo ao fim: **Encurtar → Ativar → Converter → Expandir →
+Sistematizar.**
+
+Pergunta-guia: *Em qual estágio seu produto está agora, e o design que você está
+fazendo é o desse estágio ou o de um estágio que você ainda não alcançou?*
+
+Fonte: @richardrx.

@@ -16,7 +16,7 @@ description: >-
   padrão (idioma da fonte e do usuário). For onboarding/landing/pricing CRO in
   English, this still applies — bring the RCD lens.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   language: pt-BR
 ---
 

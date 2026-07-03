@@ -128,3 +128,38 @@ Levantar rodada virou a **meta**, quando capital deveria ser só o **meio**.
 
 Pergunta-guia: *Quantos founders você conhece otimizando pra fechar uma rodada,
 quando deviam estar otimizando pra nunca precisar de uma?*
+
+---
+
+## Dimensione o mercado com TAM → SAM → SOM (e saiba qual importa)
+
+**Seu mercado real é bem menor que a população, e o número que decide o negócio
+não é o maior deles.** TAM é um teto teórico: os 213 milhões de brasileiros viram
+~101 milhões de portadores de cartão quando o seu produto é um app pago, e isso
+antes de qualquer filtro de nicho. Investidor costuma ignorar TAM abaixo de ~R$1
+bilhão, mas o número que importa pra operação não é o TAM, é o SOM, o que você de
+fato consegue capturar.
+
+Os três círculos, do maior pro menor (imagine três círculos concêntricos: o
+externo é o TAM, dentro dele o SAM, e no centro o pequeno SOM):
+- **TAM** (o círculo externo): teto total endereçável, o mercado inteiro se você
+  pegasse tudo.
+- **SAM** (o círculo do meio): a fatia realista que o seu modelo alcança de
+  verdade (~40% do TAM no exemplo), depois de geografia, canal e perfil.
+- **SOM** (o centro): o 1-5% que você realmente ganha em ~36 meses. E SOM **não é
+  um percentual chutado**: ele vem de CAC real, taxa de ativação, capacidade de
+  suporte e LTV. É output do seu unit economics, não um número redondo bonito.
+
+O ponto estratégico: **você não muda seu TAM.** O TAM é o que é. O que você muda é
+**quanto do seu SAM converte e retém**, e é aí que o trabalho de produto e
+distribuição mora.
+
+**Evidência (RepareCar):** ~76 mil oficinas é um TAM honesto → SAM ~47 mil → ~3%
+disso ≈ **1.414 oficinas** ≈ **R$1,6M de ARR**. No ritmo atual (~10 oficinas por
+dia), isso é ~7% do SAM em 12 meses. O número que guia a decisão é o SOM, não o
+TAM inflado de topo.
+
+Pergunta-guia: *Seu plano depende de aumentar o TAM (que você não controla) ou de
+converter e reter mais do SAM (que você controla)?*
+
+Fonte: @richardrx.

@@ -168,3 +168,97 @@ Vendendo eletrônicos como camelô: os produtos mais vendidos tinham margem ruim
 **pareciam ter mais qualidade** (sem dizer nada), e dava pra vender pelo triplo.
 **Construir percepção de valor é quase um teatro de sombras.** Conecta com o
 driver tático de estética em `principios-rcd.md`.
+
+---
+
+## Preço é o dinheiro mais barato
+
+**Pricing é a maior alavanca de um SaaS, e ~90% dos produtos estão
+subprecificados.** O motivo é psicológico: o founder conhece cada limitação, cada
+bug, cada canto que ainda falta polir, então ancora o preço no concorrente mais
+barato em vez de ancorar no valor que entrega. O comprador não vê nada disso; ele
+só vê o problema resolvido. Vocês estão olhando pra coisas diferentes, e quem
+define o preço é o que olha pro produto por dentro.
+
+O mecanismo econômico: um aumento de 30% no preço não vira 30% de MRR (algum churn
+acontece), mas o que sobra é quase caixa puro, não teve aquisição no meio pra
+comer a margem. Crescer um canal 30% custa dinheiro, custa tempo e tem teto. Subir
+preço não tem canal, não tem CAC, não tem teto de audiência: é a alavanca que
+rende mais por unidade de esforço e mesmo assim é a que ninguém encosta.
+
+Preço baixo cobra a conta depois, em três frentes:
+- **Menos budget pra alcançar o ICP** (com ticket baixo você não tem margem pra
+  ir buscar quem realmente precisa).
+- **A armadilha da obsessão por CAC** (a métrica real não é o CAC isolado, é o
+  GAP entre CAC e LTV, e o preço alarga esse gap dos dois lados ao mesmo tempo).
+- **Mais churn** (barato atrai comprador descompromissado, o mesmo caçador barato
+  da `distribuicao-growth.md`).
+
+**Como aplicar:** suba em direção ao valor, não em direção ao concorrente. E lembre
+o elo com design: o número precisa ser sustentado pela percepção de valor. Sua
+página e o primeiro uso justificam ou destroem o preço que você pediu. Cobrar mais
+sem parecer valer mais é só aumentar o preço da rejeição.
+
+Pergunta-guia: *Você ancorou seu preço no valor que entrega ou no concorrente mais
+barato, que também está com medo de cobrar?*
+
+Fonte: @richardrx.
+
+---
+
+## A armadilha do freemium, em números
+
+**Um plano grátis aumenta a conversão de signup e pode destruir a economia do
+negócio ao mesmo tempo.** O número maior no topo do funil parece vitória, mas
+esconde um negócio pior embaixo. A única forma de enxergar é rodar o funil inteiro.
+
+Mesmo tráfego nos dois cenários (R$80 mil/mês), planos a partir de R$199.
+
+**COM freemium:**
+- ~8% viram signup → 800 signups.
+- 80% ativam, 5% desses pagam → **32 pagantes** (R$6.368 de MRR).
+- A base satura em ~160 pagantes com 20% de churn.
+- Enquanto isso, 768 usuários grátis queimam tokens de IA (~US$0,08 cada um).
+- CAC real ≈ **R$2.540 por pagante**, payback ~13 meses.
+
+**SEM freemium:**
+- ~3% viram pagante → **300 pagantes** = R$59.700 de MRR (~10x o cenário anterior).
+- CAC ~R$275, payback ~6 semanas.
+- LTV:CAC 5:1, que reinveste o próprio lucro pra crescer.
+
+O freemium só compensa quando o grátis traz usuários orgânicos ou virais que você
+não pagou pra adquirir (quando o próprio uso grátis vira canal). Fora disso, um
+cenário reinveste o próprio lucro; o outro financia prejuízo até o dinheiro acabar.
+
+Pergunta-guia: *Seu grátis está trazendo usuário que você não pagou, ou está
+queimando caixa pra inflar um número de topo de funil?*
+
+Fonte: @richardrx.
+
+---
+
+## Se o freemium funciona depende do custo de servir o usuário grátis
+
+**Freemium não é bom nem ruim no abstrato; o custo do grátis é quem decide.** E
+esse custo depende de duas coisas: (1) quanto custa servir quem não paga e (2)
+quão longa e cara é a ativação até o valor.
+
+**Se servir um usuário grátis custa quase nada e o TTV é curto**, o grátis vira
+canal de aquisição. O Slack coloca você mandando a primeira mensagem em minutos: é
+o TTV curto que sustenta o modelo, não o caixa. O usuário sente valor rápido,
+custa pouco pra mantê-lo, e uma fração vira pagante.
+
+**Se o produto roda em IA (tokens em dólar) ou a ativação é longa**, cada conta
+grátis é uma aposta cara que só uma fração pequena banca. Isso exige bolso fundo
+pra aguentar o prejuízo do topo até a conversão pagar, e bolso fundo é a exceção,
+não o founder médio. Numa média amigável, só ~3-4% do freemium converte, o resto
+é custo puro.
+
+**Como aplicar:** se servir o grátis é barato e o TTV é curto, use o grátis como
+aquisição. Caso contrário, cobre, bem e cedo. Pra um produto de IA, seu usuário
+grátis nunca foi grátis.
+
+Pergunta-guia: *Quanto te custa, em dólar de token, servir um usuário que talvez
+nunca pague, e por quantos meses você aguenta bancar isso?*
+
+Fonte: @richardrx.

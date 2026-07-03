@@ -220,3 +220,37 @@ aprendizado.
   tudo igual, só primeiro nome, só 5 estrelas, ícone genérico em vez de foto
   real. (Vale testar até linkar pro post original — review cru + foto + logo da
   empresa + título com número de compras.)
+
+---
+
+## "Pinta o botão" é julgar a última linha de uma cascata
+
+**A camada visual de uma landing é a ponta de uma cascata que começa lá atrás, no
+ICP.** Quando alguém diz "deixa mais colorido" ou "muda a cor do botão", está
+criticando o FIM de um processo como se fosse o começo. Estão olhando o fim de um
+processo achando que é o começo.
+
+A cascata roda nesta ordem, e cada nível é insumo do próximo:
+1. **ICP:** pra quem você vende.
+2. **Nível de consciência do comprador:** os 5 estágios de Eugene Schwartz (sem
+   consciência, consciente do problema, da solução, do produto, e totalmente
+   consciente).
+3. **O que você diz e como:** a mensagem sai do nível de consciência.
+4. **Posicionamento visual:** o tom define a forma, a cor, o tipo e o espaço, não
+   o contrário.
+
+**Como aplicar, casando com o nível de consciência:**
+- **Consciência baixa:** abra pelo problema. Nomeie a dor logo na primeira dobra,
+  depois apresente o mecanismo e só então a sua solução. Quem ainda não sabe que
+  tem o problema não liga pra sua feature.
+- **Consciência alta:** vá direto pras suas vantagens frente às alternativas. Quem
+  já está comparando produtos não precisa que você explique a dor de novo.
+
+Pular direto pra cor de botão significa que você respondeu, em silêncio e
+provavelmente errado, quatro perguntas que definem tudo o que vem depois: pra quem
+você vende, qual o nível de consciência dele, qual dor martelar e que tom usar.
+
+Pergunta-guia: *Antes de discutir a cor do botão, você sabe em qual dos 5 estágios
+de consciência seu comprador chega na página?*
+
+Fonte: @richardrx.

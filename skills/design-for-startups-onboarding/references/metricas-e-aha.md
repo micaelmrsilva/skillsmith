@@ -82,3 +82,28 @@ custo de troca).
 > Se você não consegue responder, você não está medindo o que importa.
 
 Use isso como fechamento padrão de qualquer diagnóstico de onboarding.
+
+---
+
+## MRR subindo com churn subindo: você perdeu ele no dia um
+
+**Quando MRR e churn sobem juntos, o usuário não foi embora no mês 2, ele foi
+perdido no primeiro dia.** Levou dois meses pra cancelar, mas você perdeu ele no
+primeiro dia depois do cadastro: jogado num dashboard vazio e morto sem nada
+guiando até o valor.
+
+O mecanismo: o cancelamento é só o registro tardio de uma decisão que já tinha
+sido tomada. O usuário que não chega ao valor na primeira sessão fica ali por
+inércia, sem usar, e um dia formaliza a saída. A curva de churn no mês 2 está
+descrevendo o que aconteceu (ou não aconteceu) no dia 1.
+
+Como aplicar: o instinto de "falta feature" é quase sempre falso. Meça o TTV (time
+to value) e fique obcecado em encurtar, é ele que decide se o usuário forma hábito
+antes de a inércia acabar. E trate CAC, LTV e ativação como métricas de PRODUTO,
+não de marketing: com retenção fraca, adquirir mais só enche o balde furado mais
+rápido, e o MRR crescente vira uma ilusão que esconde a hemorragia.
+
+Pergunta-guia: *se seu MRR e seu churn estão subindo ao mesmo tempo, o que está
+acontecendo na primeira sessão do usuário que ninguém está olhando?*
+
+Fonte: @richardrx.

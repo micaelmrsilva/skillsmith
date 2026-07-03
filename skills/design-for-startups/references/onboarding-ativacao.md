@@ -163,3 +163,72 @@ aquisição render mais.
   **20 oficinas pagantes**.
 - B2C app muda o método, o princípio se mantém. Pré-venda com a solução em
   progresso resolve a maioria dos cenários.
+
+---
+
+## Vídeo de onboarding dá boas-vindas, não ensina
+
+**Um bom vídeo de onboarding não é manual.** Ninguém lê o manual do carro, ninguém
+lê o do iPhone, e ninguém vai assistir um vídeo de 12 minutos ensinando cada botão
+do seu produto. O trabalho do vídeo é outro: dar boas-vindas, criar conexão,
+mostrar o produto num relance e apontar onde o valor aparece mais rápido.
+
+**Como aplicar:** mire em cortar TTV, reduzir tickets de suporte e matar a sensação
+de "e agora?", não em educar. A duração segue a urgência do seu ICP: alguém com
+pressa pra resolver um problema tolera muito menos vídeo do que alguém feliz
+montando um Lego. E não precisa de ator nem set chique: o Richard gravou o dele no
+Screen Studio e superou o de muito produto grande.
+
+Imagine a tela: um modal de boas-vindas escrito "Sua conta foi criada!", com o
+thumbnail de um vídeo de introdução embutido no meio, e um único CTA "Próximo"
+embaixo. Boas-vindas, um relance do produto, um caminho pra frente. Só isso.
+
+Seu produto também não precisa de manual: você já leu o do seu carro?
+
+Pergunta-guia: *Seu vídeo de onboarding está tentando ensinar o produto ou está
+levando o usuário até o valor mais rápido?*
+
+Fonte: @richardrx.
+
+---
+
+## MRR subindo com churn subindo: você perdeu ele no dia um
+
+**Quando MRR e churn sobem juntos, o usuário não foi embora no mês 2, ele foi
+perdido no primeiro dia.** Você o jogou num dashboard vazio e ele morreu ali, sem
+nada guiando até o valor. Ele até levou dois meses pra clicar em cancelar, mas a
+decisão já estava tomada no primeiro dia depois do cadastro.
+
+**Como aplicar:** o problema não é falta de feature. Meça o **TTV (time to value)**
+e fique obcecado em encurtar. E entenda a categoria certa das métricas: **CAC, LTV
+e ativação são métricas de PRODUTO, não de marketing.** Com retenção fraca,
+adquirir mais só enche o balde furado mais rápido, você paga CAC pra derramar
+usuário pelo mesmo furo do dia um.
+
+Pergunta-guia: *Seu churn é problema do mês 2 ou é a fatura de um primeiro dia que
+você nunca desenhou?*
+
+Fonte: @richardrx.
+
+---
+
+## Churn e payback são um problema só, medido em dois lugares
+
+**Churn e payback parecem dois problemas (às vezes até com donos diferentes), mas
+são o mesmo.** Os dois são decididos na primeira sessão do usuário, no vão entre
+ele entrar e sentir que o produto funciona. Consertar churn na tela de
+cancelamento e caçar CAC mais barato no gerenciador de anúncios ao mesmo tempo é
+mirar nos dois lugares errados: a decisão foi tomada antes de qualquer um deles.
+
+**Como aplicar:** ativação conserta os dois de uma vez. Encurte o TTV e você
+retém mais **e** leva cada cliente pra além da linha de payback antes de ele
+sumir. Um cliente que morre no mês 2 com payback de 4 meses nunca chega a fechar a
+conta, ele já era prejuízo antes de você perceber. Ressalva honesta: nem todo
+churn é ativação (preço errado e canal ruim existem). Mas antes de sair caçando
+CAC mais barato, conte quantos clientes morrem antes de pagar o que custaram.
+
+Pergunta-guia: *Quantos dos seus clientes morrem antes de repagar o próprio CAC? Se
+não sabe, você está tratando churn e payback como dois problemas que na verdade são
+um.*
+
+Fonte: @richardrx.
