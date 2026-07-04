@@ -10,6 +10,7 @@ Coleção de skills de Claude Code que eu criei, em PT-BR. Cada pasta em [`skill
 |---|---|
 | [`design-for-startups`](skills/design-for-startups) | Lente de **Revenue Centric Design** para startups e SaaS: onboarding, ativação, landing, hero, CTA, pricing, churn, retenção, escolha de ICP e priorização de features. Traz `references/` sobre RCD, conversão de landing, preços, métricas, vieses e growth. |
 | [`design-for-startups-onboarding`](skills/design-for-startups-onboarding) | Aprofundamento em **onboarding e ativação**: aha moment, time to value, empty states, checklist de ativação, churn na primeira semana e adoção de feature nova. `references/` com método de 5 passos, padrões de onboarding, métricas de aha e vieses comportamentais. |
+| [`pricing-filtro-icp`](skills/pricing-filtro-icp) | Pricing tratado como **filtro de ICP**, não decisão financeira: preço seleciona comportamento (dor, orçamento, autoridade, compromisso). `references/` com piso e teto (custo real de servir vs custo da dor), métricas por segmento (WTP, CAC payback, margem por suporte, ticket-to-revenue) e política de desconto. |
 
 ### Jurídico
 
