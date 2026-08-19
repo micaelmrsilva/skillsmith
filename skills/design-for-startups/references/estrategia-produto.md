@@ -229,3 +229,95 @@ Pergunta-guia: *Se um concorrente idêntico surgisse amanhã de graça, o que se
 usuário perderia ao trocar, e você desenhou isso de propósito ou foi por acaso?*
 
 Fonte: @richardrx.
+
+---
+
+## Cancelamento não compra feature
+
+Três clientes cancelaram por falta de emissão de boleto. O produto continua sem
+boleto — **e essa é a decisão certa**, não um descuido.
+
+Não é que o pedido não foi ouvido: ele está registrado, com o nome de quem pediu e
+a data, e tem 20+ pessoas na mesma fila, a mais antiga esperando há meses. **Mas
+cancelamento não compra feature.** Três saídas não mudam a estratégia de produto:
+o perfil de quem usa foi definido, e boleto entra no pacote do que se decidiu não
+fazer.
+
+O fluxo de triagem que sustenta isso:
+
+> Ticket (IA ou humano do suporte abre no Linear) → revisão e priorização
+> automatizada toda manhã → **build ou parking lot**.
+
+- **Bug** é priorizado na frente de tudo; se dá pra codar na hora, coda; se precisa
+  de design, entra na frente da fila.
+- **Feature nova** vai, **por padrão**, pro parking lot — e só sai de lá se passar
+  no filtro canivete.
+
+E quando o cliente pergunta se vai ter: **não diga "não". Diga que tem 20 pessoas
+na frente dele.** Ninguém briga com um número.
+
+Pergunta-guia: *Sua última feature entrou porque passou num critério, ou porque
+alguém importante ameaçou cancelar?*
+
+---
+
+## Fadiga de feature — a base acadêmica do filtro
+
+Passado o limiar de carga cognitiva, a avaliação subjetiva do produto **não fica
+neutra: ela cai** em frustração, confusão e abandono de tarefa, batendo direto em
+CAC e LTV.
+
+O mecanismo tem duas metades que se contradizem:
+- **Antes da compra**, mais features ajudam na comparação (viés de distinção) —
+  por isso o founder acha que empilhar vende.
+- **Na decisão e no uso**, mais opções alongam a decisão e aumentam a não-decisão
+  (paralisia de análise). **Sem decisão, sem conversão.** E cada feature extra
+  inclina a curva de aprendizado, com perda de produtividade mensurável em B2B.
+  Quando o valor demora, o usuário some em silêncio antes do trial acabar — e
+  culpa a si mesmo, não o produto.
+
+Base: Thompson, Hamilton & Rust (2005), "Feature Fatigue", JMR 42(4); viés de
+distinção (Hsee & Zhang, 2004); paralisia de análise (Iyengar & Lepper, 2000).
+
+**A curva do Swiss Knife Index:** a utilidade percebida sobe até um pico (no
+exemplo, ~10 features) e depois **cai**, enquanto a complexidade só sobe. Passado
+o ponto ótimo, um produto tecnicamente maior é **funcionalmente pior**. A correção
+não é dar mais visibilidade às features escondidas — é **reduzir a carga cognitiva
+pro resto voltar a ser visível**. Critério prático: **feature usada por menos de
+10% da base ativa precisa justificar a existência ou sair.** Não existe número
+ideal universal, só o ideal pro seu ICP, contexto e dispositivo.
+
+---
+
+## Hierarquia de atenção — organizar entrega acesso, direcionar entrega ativação
+
+"Minha interface está bonita, mas ninguém usa as features principais" quase sempre
+significa que a feature-chave está atrás de três cliques que o usuário nunca vai
+dar.
+
+**Hierarquia de atenção é a estrutura que decide o que o usuário vê primeiro, o
+que ele acha com esforço, e o que ele nunca descobre.** Construída sem intenção, o
+produto se sabota: o usuário usa o que é mais saliente, e o mais saliente
+raramente é o que retém.
+
+> Um produto que **organiza** entrega acesso. Um produto que **direciona** entrega
+> ativação.
+
+Planeje a hierarquia pra influenciar comportamento: a feature que gera valor e
+retenção precisa ser a coisa mais proeminente da tela — não só informação bem
+arrumadinha.
+
+---
+
+## Foque no core — "all-in-one" dilui a proposta de valor
+
+Perseguir TAM maior indo genérico **destrói a retenção dos seus heavy users sem
+converter os novos**. É o mesmo erro de roadmap em carro e em software: quando a
+UI/UX tenta cobrir tudo, a proposta de valor dilui — você quebra a retenção de quem
+amava e não converte quem chegou, porque virou genérico.
+
+Ilustração citada: a Porsche perseguiu o TAM da China com elétricos genéricos,
+abandonando o ICP que amava seus motores boxer — e queimou bilhões pra reverter o
+roadmap. (Números do post original; trate como ilustrativo.)
+
+Fonte: @richardrx (posts + revenue-centric-design, heliocosta-dev).

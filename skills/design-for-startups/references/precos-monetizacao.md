@@ -262,3 +262,110 @@ Pergunta-guia: *Quanto te custa, em dólar de token, servir um usuário que talv
 nunca pague, e por quantos meses você aguenta bancar isso?*
 
 Fonte: @richardrx.
+
+---
+
+## Arquitetura da página de pricing — Good-Better-Best (GBB)
+
+**LTV perdido raramente é preço; é paralisia de análise por falta de arquitetura
+de escolha.** O cérebro é preguiçoso e julga por comparação relativa (priming +
+ancoragem). Se você não desenha a âncora, o usuário te compara com "nada" ou com o
+concorrente mais barato.
+
+- **Good** — plano de entrada enxuto, que ancora um preço baixo mas é limitado o
+  suficiente pra doer e o usuário olhar pra cima. **Nunca torne o Good grátis** —
+  se o primeiro número é zero, todo o resto parece caro.
+- **Better** — o plano padrão, alvo de ~80% dos compradores. Precifique **mais
+  perto do Good que do Best**, pro usuário pensar "pagando ~20% a mais eu levo o
+  dobro?".
+- **Best** — âncora de valor. Existe principalmente pra fazer o Better parecer
+  barato (sem a bike de fibra de carbono, a bike com rodas de carbono parece cara).
+
+Regras de ouro:
+- **Um eixo só de comparação.** Não coloque "10.000 tokens" competindo com
+  "suporte prioritário". Prefira crescimento linear, idealmente assimétrico.
+- **2 a 5 planos.** Seis dispara ansiedade e paradoxo da escolha (Chernev, 2015).
+- **Você escolhe os atributos comparados** — a sua tabela "Brasil × Paraguai":
+  trocar quais indicadores aparecem inverte quem "ganha". Escolha os que favorecem
+  sua tese de valor, sem mentir.
+- **Destaque o Better** com cor, tamanho ou selo. **Faça a conta pelo usuário.**
+
+Base: Briesch et al. (1997) e Mazumdar et al. (2005) sobre preço de referência;
+Chernev (2015) sobre choice overload.
+
+---
+
+## Um eixo de valor + a distância do decoy
+
+A escada de planos precisa ler como **uma progressão clara de valor**. Escolha uma
+progressão — quantitativa (mais créditos/usuários) **ou** qualitativa (suporte
+humano 24/7, features especiais) — em vez de misturar as duas. Nomenclatura ao
+estilo Starbucks (Tall/Grande/Venti) faz todo tier soar bem e ainda levanta a
+marca.
+
+Depois posicione o chamariz: **decoy perto do plano mais caro faz o caro parecer
+barato; decoy perto do mais barato faz o próprio decoy virar a opção mais
+atraente.** E tire o Free do topo visível — ancoragem: o primeiro preço visto vira
+a referência de tudo.
+
+> Você está competindo contra o seu próprio plano grátis. E perdendo.
+
+---
+
+## Ordem das linhas do plano — efeito de posição serial
+
+Ninguém lê a lista de features do card de preço linearmente: atenção e memória se
+concentram no **primeiro e no último** item (primazia + recência). A ordem é, por
+si só, uma alavanca de conversão:
+
+- **Topo:** a âncora de valor. Nunca "suporte 24/7". Abra com a feature core que
+  resolve a dor principal do ICP e justifica ~80% do ticket.
+- **Meio:** utilitárias (exportação, integrações, limites de armazenamento) — o
+  usuário não memoriza, só escaneia pra comparar com o plano seguinte. **O meio da
+  lista é um buraco negro cognitivo.**
+- **Base, colada no CTA:** o diferencial, o bônus, ou o gancho de aversão à perda
+  (garantia vitalícia, suporte dedicado).
+
+---
+
+## Upgrade converte como perda, no momento do valor
+
+Taxa de upgrade baixa (abaixo de ~5%) quase sempre é problema de **enquadramento e
+timing**, não de preço. Três enquadramentos que batem o prompt genérico de
+limite/desconto/feature-gate:
+
+1. **Custo afundado** — mostre o que ele já construiu: "Você criou 47 relatórios
+   personalizados. No plano grátis você perde acesso a 40."
+2. **Aversão à perda** — enquadrar perda converte mais que enquadrar ganho: "Você
+   vai perder acesso a 8 meses de histórico" > "Tenha histórico ilimitado".
+3. **Gate no resultado iminente** — "Seu relatório está pronto. Para exportar em
+   PDF, ative o Pro."
+
+**O timing e o contexto do gate importam mais que o gate.**
+
+---
+
+## O fim do trial deveria ser valor consumido, não calendário
+
+Travar acesso por contagem de dias (7/14/28) é regra preguiçosa: o gatilho de
+cobrança deveria disparar **depois da primeira vitória real**. Nunca coloque
+paywall antes de uma micro-vitória clara ou da resolução do problema central —
+isso mata conversão e gera boca a boca ruim.
+
+Quatro variáveis pra calibrar duração:
+1. **Complexidade do produto** — enterprise precisa de tempo pra revisão de
+   compliance/segurança, não só pro usuário.
+2. **Time to Value** — Spotify entrega em segundos; um CRM precisa de dias de
+   dado.
+3. **Frequência de uso** — produto usado raramente pede trial longo, ou trial
+   nenhum (ferramenta de imposto anual não deveria ter trial).
+4. **Cartão na entrada** — sem cartão, trial mais curto pra criar urgência; com
+   cartão, fique de olho no churn silencioso do mês seguinte.
+
+Ressalva: **custo afundado só morde se o usuário construiu um ativo real.**
+Onboarding ruim produz frustração, não custo de troca.
+
+Pergunta-guia: *Seu trial termina quando o calendário manda, ou quando o usuário
+já viu funcionar?*
+
+Fonte: @richardrx (via revenue-centric-design, heliocosta-dev).

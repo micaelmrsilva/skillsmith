@@ -161,3 +161,80 @@ Pega todas as features, conta quantas são usadas por **>40% dos ativos em 30
 dias**, divide. Resultado **< 0,3** = canivete suíço (produto que "faz tudo" e o
 usuário se perde). Mais superfície = mais carga cognitiva, mais código, e diluição
 da percepção de pra que serve o produto.
+
+---
+
+## Benchmarks de referência (para calibrar, não para copiar)
+
+**Trial → pago** (análise de Kyle Poyar com ~200 produtos B2B, ChartMogul +
+ProductLed, jan/2026 — **cenário US**):
+- média de **free → pago: ~8%**;
+- **trial sem cartão:** bom entre **4-6%**, ótimo entre **10-15%**;
+- **trial com cartão na entrada:** bom entre **25-35%**.
+
+**Anúncio (Meta):** o CTR médio publicado pelo próprio Facebook fica em torno de
+**1,71%**. Caso real: um SaaS com criativos estáticos rodava **0,3%** de CTR —
+péssimo. O founder nichou (área da saúde) e o CTR foi pra **1,5%**. Continua abaixo
+da média, mas é **5x** o que ele tinha, **sem mexer numa linha de código**. O
+problema era ICP mal definido, produto genérico "pra todo mundo" e ângulo que não
+gerava dor em ninguém.
+
+**Formulário:** ver `friccao-atencao-formularios.md` (HubSpot: 3 campos > 25%;
+pedir telefone derruba de ~19% pra ~13,5%).
+
+**Lista de espera:** converte **15-20%** em pagante quando boa, acima de **30%** é
+excelente. Converta tamanho em clientes esperados antes de comemorar: 53 pessoas a
+20% = 10 clientes; 1.000 pessoas a 1% = 10 clientes. Mesmo resultado, percepção
+oposta. **Enquanto não houver transação, não há hipótese validada** — comemore a
+qualidade do sinal, não o tamanho da lista.
+
+---
+
+## Os 3 furos mais comuns no funil de SaaS de founder brasileiro
+
+**#1 Cancelamento no primeiro ou segundo mês.**
+Onboarding inexistente é mato, mas tem outro motivo: ou o cliente **nunca chegou ao
+momento de valor** (ativação), ou **nunca deveria ter entrado**, porque a LP
+prometeu outra coisa e trouxe gente fora do ICP. O primeiro é problema de produto;
+o segundo é de marketing. No produto você encurta o caminho até a primeira
+entrega; no marketing você aperta a promessa da página ou torna a dor mais
+visceral.
+
+**#2 Muita gente no trial, pouca conversão pro pago.**
+Geralmente paywall no momento errado, ou ausência de escada de valor. Pensa: um
+produto usado uma vez por semana, num trial de 14 dias, teve **três chances** de
+virar rotina — e depois recebe o lembrete de conversão num email fora de contexto,
+que é ignorado. (Benchmarks acima.)
+
+**#3 Muita visita e pouco signup.**
+ICP confuso e/ou proposta de valor genérica, copy ou posicionamento errados. Mas
+**antes da copy, cheque a fonte de aquisição**: se o tráfego é errado, nenhuma copy
+salva sozinha.
+
+Repare que tudo se mistura: saber o ICP e ter uma boa oferta é o mais importante, e
+depois você precisa entregar uma experiência alinhada com a promessa que fez. O
+erro do founder é tratar isso como partes separadas, que se conectam cheias de
+furos.
+
+---
+
+## Traduza churn em LTV (reais), não em pontos percentuais
+
+Quase todo mundo olha o **%** de churn; quase ninguém calcula o que **cada ponto**
+custa em LTV acumulado ao longo de 12 meses. Cortar churn é alavanca de caixa que
+**não exige aumentar preço nem comprar mais aquisição**.
+
+- Com **25% de churn mensal** sobre 1.000 usuários, você precisa adicionar **250
+  usuários novos por mês só pra empatar**. Corta o tráfego pago e o produto morre
+  em ~4 meses.
+- SaaS financeiro, ARPU R$120: cortar **5 pontos** de churn (25% → 20%) vale
+  **+R$72.000/ano** em caixa, sem mexer no preço e sem aquisição extra.
+
+E dá pra melhorar retenção **sem abrir o Figma**: defina o aha moment, meça o TTV
+do signup até ele, pergunte "como entrego isso mais rápido?", quebre em
+micro-vitórias se não der pra encurtar, teste, meça, repita.
+
+Pergunta-guia: *Quanto vale, em reais por ano, um ponto de churn no seu produto? Se
+não sabe, você está olhando uma porcentagem em vez de dinheiro.*
+
+Fonte: @richardrx (posts + revenue-centric-design, heliocosta-dev).

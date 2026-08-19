@@ -114,6 +114,53 @@ Aplicar: copiar landing sem a pesquisa por trás (`conversao-landing.md`).
 
 ---
 
+## Efeito de mera exposição
+A gente **nota o que já está na memória ou que se repete**. Misturar elementos da
+realidade do ICP (a palavra que ele usa, o componente visual que ele reconhece, a
+dor recente e memorável no título) faz o reconhecimento acontecer mais rápido.
+Onde aplicar: vocabulário do hero, ícones e metáforas do domínio, dado colocado
+exatamente onde a objeção acontece.
+
+## Efeito von Restorff (bizarrice / isolamento)
+Coisa bizarra, engraçada, visualmente forte ou antropomórfica **rouba atenção** — e
+o cérebro usa contraste pra decidir rápido. Quando opções concorrentes têm o mesmo
+peso visual, você cria fricção mental, o tempo de decisão sobe e a conversão cai.
+Onde aplicar: destacar visualmente a opção que gera valor e apagar o resto (um
+"Cancelar" fantasma ao lado de um primário sólido); quebrar o padrão dentro da
+página (marca-texto, post-it, objeto real onde ninguém espera, seção com a cor
+oposta da anterior); personagens baseados em objetos inanimados. Regra:
+**se tudo chama atenção, NADA chama atenção.** Decisão lenta vira percepção de
+"difícil de usar", que vira churn.
+
+## Efeito de verdade ilusória
+Repetição vira sensação de verdade, mesmo depois do desmentido. O caso didático é
+o "atenção humana de 8 segundos, menos que um peixinho dourado": nunca existiu
+estudo, a Microsoft tirou o material do ar, e cinco anos depois metade dos adultos
+britânicos ainda acreditava. Onde aplicar: **defensivamente** — cheque a fonte
+antes de usar estatística de palestra, e desconfie do dado que "parece verdade".
+(Ver `friccao-atencao-formularios.md`.)
+
+## Gaze cueing (e seu limite)
+Nossa atenção segue o olhar (e a mão) do outro, mesmo desenhado. Mas o estudo
+original mediu **direção do olhar, com 106 pessoas — não conversão**. Onde aplicar:
+use figura humana pra direcionar atenção, sem esperar que ela feche a venda; num
+teste do CXL, uma **seta desenhada à mão** ganhou da figura humana. Conversão vem
+de continuidade + contraste no ponto certo.
+
+## Efeito do número preciso
+Número exato lê como mais crível que arredondado: "526 casas" inspira confiança,
+"mais de 500 casas" cheira a marketing. Schindler & Yalch (2006), 199
+participantes: alegações de "47%" ou "53%" foram julgadas ~10% mais precisas que a
+mesma alegação com "50%" — só a precisão mudou. Onde aplicar: prova social,
+resultados, números do hero, depoimentos.
+
+## Efeito de posição serial (primazia + recência)
+Atenção e memória se concentram no primeiro e no último item de uma lista; o meio
+é um buraco negro cognitivo. Onde aplicar: ordem das linhas do card de preço
+(feature core no topo, diferencial/bônus colado no CTA), bullets de features,
+checklists de onboarding. Detalhe em `precos-monetizacao.md`.
+
+
 ### Regra de uso ética
 Defaults e atrito precisam ser **eticamente defensáveis**. Pegadinha de checkbox e
 escassez falsa convertem no curto prazo e viram churn, ReclameAqui e dano de

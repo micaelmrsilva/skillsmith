@@ -11,12 +11,15 @@ description: >-
   "landing page não converte", "hero", "CTA", "preço/pricing/planos", "decoy",
   "ancoragem", "default", "trial com/sem cartão", "freemium", "PLG", "ICP",
   "nicho", "feature creep", "redesign", "jornada do usuário", "LTV/CAC/NRR",
-  "Swiss Knife Index", "Revenue Centric Design / RCD", ou qualquer pedido para
-  avaliar conversão/retenção/ativação de um produto. Responda em pt-BR por
+  "Swiss Knife Index", "Revenue Centric Design / RCD", "nível de consciência",
+  "formulário não converte", "quantos campos", "fricção", "atenção", "garantia",
+  "objeção", "moat", "vibe coding", "commoditização por IA", "clone", "Bullseye",
+  "Good-Better-Best / GBB", ou qualquer pedido para avaliar
+  conversão/retenção/ativação de um produto. Responda em pt-BR por
   padrão (idioma da fonte e do usuário). For onboarding/landing/pricing CRO in
   English, this still applies — bring the RCD lens.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   language: pt-BR
 ---
 
@@ -135,7 +138,17 @@ Não pule direto pra solução bonita. Siga o fluxo de diagnóstico:
 4. **Cheque o alinhamento promessa↔produto.** Churn alto + NPS ok geralmente =
    problema de promessa, não de produto. Ver `references/conversao-landing.md`.
 
-5. **Devolva o racional + uma pergunta.** Termine com uma pergunta que force o
+5. **Se o alvo for uma landing page, rode as 10 camadas** (detalhe em
+   `references/diagnostico-lp-10-camadas.md`), nesta ordem — o visual é a 9ª:
+
+   > contexto → ICP → nível de consciência → mensagem → estrutura de venda →
+   > proposta de valor → prova & objeções → fricção & CTA → atenção & UI →
+   > estranheza
+
+   A pergunta de abertura nunca é "o botão deveria ser verde ou azul?", é
+   **"onde essa página está perdendo venda?"**.
+
+6. **Devolva o racional + uma pergunta.** Termine com uma pergunta que force o
    usuário a olhar o dado real (ex.: "Quanto tempo seu usuário leva entre signup
    e aha moment? Se não sabe, não está medindo o que importa.").
 
@@ -158,6 +171,24 @@ Não pule direto pra solução bonita. Siga o fluxo de diagnóstico:
   e cobra para sempre. Aplique o filtro canivete.
 - **Copiar uma landing que converte sem a pesquisa por trás.** → Cargo cult:
   você copia o que é barato de produzir; o que custou caro é invisível.
+- **Começar o teardown pelo visual.** → O visual é a 9ª das 10 camadas. Antes
+  dele: de onde o usuário veio, quem ele é, o que ele já sabe, o que está sendo
+  vendido, e o que trava a decisão.
+- **Falar com todos os níveis de consciência na mesma página.** → O hero educa
+  topo de funil, o CTA pede fundo de funil, e o case aparece tarde pra quem já
+  estava comparando. Rote a intenção; às vezes o certo são páginas menores.
+- **Objeção jogada no FAQ do rodapé.** → O medo aparece a dois centímetros do
+  botão, e é ali que precisa morrer. Garantia em página separada não existe.
+- **Perseguir "menos campos" como dogma.** → A curva não é reta: a conversão cai
+  até ~4 campos, estabiliza e volta a subir. Otimize o custo total do dado, não a
+  contagem de campos.
+- **Construir feature porque um cliente ameaçou cancelar.** → Cancelamento não
+  compra feature. Registre, mostre o tamanho da fila, e mande pro parking lot.
+- **Achar que build mais rápido conserta churn.** → Entregar a mesma interface
+  confusa mais rápido é só um caminho mais eficiente pro churn. Ativação, não
+  velocidade.
+- **Usar o dado dos "8 segundos de atenção / peixinho dourado".** → Nunca existiu
+  estudo. Use Gloria Mark (~47 segundos hoje) e cite a fonte.
 - **Dashboard vazio no primeiro acesso.** → Empty state tem que direcionar a
   próxima ação. Cada segundo decidindo o que fazer é um segundo mais perto de
   desistir.
@@ -187,19 +218,49 @@ Carregue o arquivo relevante conforme o tema do pedido:
   usuários (cobre desde o início). Leia para: onboarding, ativação, first-run,
   TTV, "usuário cadastra e some".
 
+- **`references/diagnostico-lp-10-camadas.md`** — o framework de teardown de
+  landing page em 10 camadas (contexto, ICP, consciência, mensagem, estrutura de
+  venda, proposta de valor, prova & objeções, fricção & CTA, atenção & UI,
+  estranheza), o checklist mental de bolso, e como amarrar o diagnóstico nas
+  métricas. Leia para: auditar/redesenhar uma LP, "minha LP não converte",
+  briefing antes do Figma.
+
+- **`references/niveis-consciencia.md`** — os 5 níveis de Eugene Schwartz
+  aplicados: hero, prova e CTA por estágio, a LP como roteador de intenção, canal
+  → estágio provável, schema de instrumentação, e por que conversão média esconde
+  o erro. Leia para: escolher a mensagem, decidir quantas LPs criar, casar canal
+  com promessa, mismatch de consciência.
+
+- **`references/friccao-atencao-formularios.md`** — aversão ao risco (garantia ao
+  lado do preço, trial, familiaridade), formulários (HubSpot 40k LPs, telefone
+  19%→13,5%, a curva em U da Unbounce), esforço percebido ≠ real, multi-step,
+  atenção (o mito do peixinho dourado × Gloria Mark: 47s), mera exposição, quebra
+  de padrão, e um antes/depois de modal denso. Leia para: formulário, checkout,
+  carga cognitiva, "quantos campos", objeção, distração.
+
+- **`references/ia-diferenciacao-moat.md`** — commoditização na era da IA (mesmo
+  motor, UX diferente: VW Up / Seat Mii / Skoda Citigo), os 3 moats deliberados
+  (marca, custo de troca, expansão), as 4 falhas do SaaS vibe-coded, defeitos
+  recorrentes de LP gerada por IA, e a fábrica de dívida técnica IA→Figma→código.
+  Leia para: "todo mundo tem o mesmo produto", clone/copycat, moat, vibe coding.
+
 - **`references/conversao-landing.md`** — Teste dos 5 segundos no hero, as 3
   variáveis pré-copy (contraste, disposição/Fitts/padrão-F, confiança),
   microcopy de CTA + click triggers, arquitetura de conversão (Booking, Amazon
   1-click, aversão à perda), cargo cult de páginas, a dívida de expectativa
   (promessa↔produto), o teste de honestidade do tráfego frio, primeira
-  impressão/tela de login (Stanford 46%). Leia para: landing page, hero, CTA,
+  impressão/tela de login (Stanford 46%), o mito do gaze cueing, o teste da splash
+  page do Obama (imagem venceu vídeo, +40,6%), e por que CAC alto quase sempre é
+  filtro na LP. Leia para: landing page, hero, CTA,
   copy, conversão, "página não converte", primeira impressão.
 
 - **`references/precos-monetizacao.md`** — Por que subir preço (1% → 8-11% de
   lucro), efeito chamariz/decoy (Economist), defaults & ancoragem (opt-out de
   doação de órgãos), trial com vs sem cartão (31,4% vs 8,9%), PIX recorrente vs
   cartão, por que NÃO fazer A/B de preço, disposição a pagar, percepção de valor
-  (o camelô). Leia para: pricing, planos, decoy, ancoragem, freemium, trial,
+  (o camelô), arquitetura Good-Better-Best da página de pricing, distância do
+  decoy, ordem das linhas por posição serial, upgrade enquadrado como perda, e
+  trial que termina por valor consumido em vez de calendário. Leia para: pricing, planos, decoy, ancoragem, freemium, trial,
   "quanto cobrar".
 
 - **`references/estrategia-produto.md`** — ICP claro + founder fit, o filtro
@@ -212,7 +273,9 @@ Carregue o arquivo relevante conforme o tema do pedido:
 - **`references/distribuicao-growth.md`** — Distribuição > produto, padeiro vs
   comilão / niche thyself, achar furos de gigantes em reclamações públicas
   (ReclameAqui, regra 1:26), referral/MGM (Dropbox: presente vs comissão),
-  bootstrap vs VC (MaisMEI, viés do sobrevivente). Leia para: growth,
+  bootstrap vs VC (MaisMEI, viés do sobrevivente), o diagnóstico do gargalo
+  (ninguém entra = distribuição; entra e não paga = design), o framework Bullseye
+  + ICE, e engenharia reversa da meta de MRR. Leia para: growth,
   distribuição, copycat/concorrência, indicação/referral, captação/fundraising.
 
 - **`references/vieses-comportamentais.md`** — Catálogo de vieses usados na
@@ -243,3 +306,19 @@ Carregue o arquivo relevante conforme o tema do pedido:
 - Quando fizer sentido, feche com uma **pergunta operacional** que obrigue o
   usuário a olhar o dado certo — é a assinatura desta abordagem.
 - Responda em **pt-BR** por padrão.
+
+---
+
+## Proveniência e limite de uso
+
+As ideias, frameworks, exemplos e o termo **Revenue Centric Design** são de
+**Richard ([@richardrx](https://x.com/richardrx))**. Parte deste corpo de
+conhecimento foi destilada dos posts públicos dele e do índice em inglês
+[heliocosta-dev/revenue-centric-design](https://github.com/heliocosta-dev/revenue-centric-design),
+usado com atribuição.
+
+🚫 **Não use este material para produtos de aposta, cassino ou jogos de azar a
+dinheiro real** (incluindo loot box e real-money gaming). A restrição foi
+condição explícita do autor original para reuso — se o pedido for desse tipo,
+recuse a aplicação desta skill e explique o motivo. Termos completos em
+`LICENSE-RCD`.

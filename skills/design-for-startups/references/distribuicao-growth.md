@@ -163,3 +163,64 @@ Pergunta-guia: *Seu plano depende de aumentar o TAM (que você não controla) ou
 converter e reter mais do SAM (que você controla)?*
 
 Fonte: @richardrx.
+
+---
+
+## O diagnóstico do gargalo: distribuição ou design?
+
+Design não salva produto fantasma. **Design otimiza e sobe o LTV de algo que já
+tem tráfego — ele não fabrica demanda.** A separação é limpa:
+
+> **Se ninguém entra no seu produto, é distribuição. Se entram, não pagam e vão
+> embora, é design.**
+
+E a alavanca de canal não é só custo por canal: é o **nível de consciência** que
+cada canal entrega, que muda conversão e retenção conforme onde e como o usuário
+chegou (ver `niveis-consciencia.md`).
+
+---
+
+## Bullseye — concentre canais em vez de testar dez de uma vez
+
+Testar dez canais ao mesmo tempo significa nunca saber o que gerou resultado, e
+culpar o canal quando o negócio empaca. O framework Bullseye (do livro
+*Traction*), três anéis de prioridade:
+
+- **Anel interno:** no máximo **3** canais de maior potencial, com foco total.
+- **Anel do meio:** até **6** canais sondados com experimentos pequenos.
+- **Anel externo:** tudo que é plausível no longo prazo, sem foco agora.
+
+Pra escolher entre canais, **ICE Score** (Impact, Confidence, Ease, cada um de
+0-10, divide por 3, prioriza).
+
+**O buraco que o livro não cobre:** escalar distribuição em cima de uma estrutura
+de recepção quebrada (LP, onboarding, primeiros passos no produto) não gera
+crescimento nenhum. **Distribuição e retenção são simultâneas, não sequenciais.**
+
+---
+
+## Engenharia reversa da meta de MRR (antes de comemorar)
+
+Meta de receita é, na verdade, um problema de tráfego **e** de retenção — e o
+churn reseta o funil todo mês, em silêncio.
+
+Contas de trás pra frente, pra chegar a 2.500 clientes:
+- 5% de conversão na LP → **50.000 visitantes**;
+- via ads com 3% de CTR de criativo → **~1,6 milhão de impressões**.
+
+E 5% e 3% são **decil de topo**: a maioria fica em 1-2% na LP e abaixo de 1% de
+CTR, então você testa dezenas de variações. (Referência de mercado: o CTR médio
+de anúncio na Meta fica na casa de **1,71%**, publicado pelo próprio Facebook.)
+
+Agora o balde furado: com **20% de churn mensal**, a vida média do cliente é de 5
+meses — você repõe **500 clientes todo mês, pra sempre, só pra ficar parado**
+(~10.000 visitantes / 333.000 impressões por mês). Em ticket baixo, muita gente
+opera com 40-50% de churn: o balde nunca enche.
+
+O problema mora na interseção de dev, design e marketing — nenhum dos três é dono
+sozinho. **Construir o produto é a parte fácil; distribuição é o jogo.**
+
+Pergunta-guia: *Qual dos dois é seu gargalo hoje: ninguém entra, ou entra e não
+paga? A resposta decide se você contrata mídia ou conserta o produto.*
+
+Fonte: @richardrx (via revenue-centric-design, heliocosta-dev).

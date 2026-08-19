@@ -253,4 +253,100 @@ você vende, qual o nível de consciência dele, qual dor martelar e que tom usa
 Pergunta-guia: *Antes de discutir a cor do botão, você sabe em qual dos 5 estágios
 de consciência seu comprador chega na página?*
 
-Fonte: @richardrx.
+---
+
+## Olhe para o CTA — cuidado com o mito do olhar
+
+A imagem mais citada quando alguém fala de conversão (o bebê olhando para o
+formulário) vem de um estudo que **nunca mediu conversão nenhuma**. O estudo
+original foi feito com 106 pessoas e mediu **para onde o olho vai**, só isso. O
+nome técnico é **gaze cueing**: nossa atenção segue o olhar do outro, mesmo se for
+uma carinha desenhada. (Mão também direciona forte.)
+
+Depois o CXL tentou provar o efeito em conversão com 6 variações de uma LP de
+escritório de advocacia, eye tracking e uma pergunta final sobre qual seria o
+próximo passo pra falar com o escritório. O teste funcionou — mas **uma seta
+desenhada à mão ganhou de todo mundo** em tempo no formulário.
+
+Conclusão operacional: a figura humana **é um cadinho supervalorizada**. Ela
+direciona a **atenção**, mas nem sempre a **ação**. A conversão vem de
+**continuidade e contraste no ponto certo da leitura**, com alinhamento entre
+oferta e ICP.
+
+---
+
+## Rolar é continuação, clicar é decisão (o teste do Obama, 2008)
+
+Campanha presidencial americana é um dos poucos lugares onde o teste inteiro vira
+registro público: número, variação vencedora e as perdedoras juntas. O time do
+Obama em 2008 era muito bom nesse jogo.
+
+A splash page deles era o topo de um funil de email que virava doação. Testaram **4
+botões contra 6 mídias** (3 imagens, 3 vídeos). A vencedora foi **uma imagem**:
+saiu de **8,26% para 11,6%** de cadastro, **+40,6%** sobre a original.
+
+O plot twist: **todos os vídeos perderam para todas as imagens** — e o favorito da
+equipe antes do teste era justamente um vídeo. Teoria: o vídeo exigia um clique
+pra tocar (diferente da VSL, que abre sozinha).
+
+> "Scrolling is a continuation, clicking is a decision." — Joshua Porter
+
+**Cada clique que você pede antes do CTA compete com o CTA.** Se o usuário só tem
+uma decisão pra gastar, não gaste ela num play.
+
+---
+
+## Julgue a LP por conversão, não por beleza — e aceite que a que converte costuma ser feia
+
+Landing page não é concurso de beleza: ela tem **um trabalho mensurável** —
+qualificar o usuário e transformar tráfego em receita, derrubando CAC. Avaliar uma
+imagem estática sem contexto ("IA × humano", "quem desenhou melhor") é quase
+inútil. Conversão é um **loop contínuo**: formule a tese → publique a interface e
+colete dado → ache onde o usuário hesitou → nova hipótese → otimize o ciclo
+seguinte. O debate cai na estética porque opinar sobre aparência é mais fácil que
+medir resultado — e é exatamente isso que mantém a maioria das LPs performando mal.
+
+Existe uma guerra invisível entre **branding** (ficar bonito no print) e
+**performance** (conversão, retenção, expansão). A página que põe dinheiro no
+caixa costuma ser visualmente agressiva, cheia de texto, longe da estética Apple
+que o founder sonha. O padrão que converte, mesmo que o artista aí dentro sofra:
+
+1. **um ponto de atenção óbvio** — o olho vai onde tem que ir;
+2. **CTA de alto contraste, com redundância** (repetido nos pontos certos);
+3. **promessa clara** entregando valor facilmente percebido;
+4. **garantia, prova social e um elemento gratuito** pra reduzir aversão ao risco;
+5. **imagens orgânicas** já na segunda dobra, sustentando a oferta e a confiança.
+
+**Sem cliques de saída.** Qualquer elemento clicável que leve pra fora da página é
+conversão perdida, por mais prestigiosa que seja a fonte (matéria de jornal
+importante, vídeo de influenciador top). E o CTA precisa gerar contraste forte
+contra o resto da interface em **posição, tamanho e cor** — se não é fácil de
+notar e clicar, não vai ser clicado.
+
+**Página de features é escaneada, não lida:** quase ninguém lê. A pessoa varre três
+bullets e caça um vídeo de demo — desenhe pra esse comportamento, e deixe a copy
+profunda servindo a fatia técnica e mais consciente do ICP que realmente lê.
+
+---
+
+## CAC alto quase sempre é filtro, não mídia
+
+O clique vira lead, o lead vira call de SDR, a call não fecha — e o founder reage
+trocando criativo, trocando canal, ou culpando o SDR. **A landing page podia ter
+matado esse deal antes do formulário.**
+
+Três alavancas pro lead se auto-selecionar sem se sentir filtrado:
+1. **Especificidade da copy** — "Fluxo de caixa para prestadores de serviço que
+   faturam R$500k-R$3M" bate "Organize suas finanças".
+2. **Preço visível** — elimina o lead sem budget, e vendas só encontra objeção
+   real.
+3. **Pergunta de qualificação como primeira interação** (ou copy/exemplos fazendo
+   esse papel).
+
+A conta: se você fecha 1 a cada 50 leads, cair pra 30 leads com 1 fechamento quase
+**dobra a eficiência da mídia** — mesma verba, CAC menor. **CAC é custo por deal
+fechado, não custo por lead.** O lead sem dinheiro não vai gerar dinheiro por
+mágica entre a landing page e a call de vendas.
+
+
+Fonte: @richardrx (posts + revenue-centric-design, heliocosta-dev).
